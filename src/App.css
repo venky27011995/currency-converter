@@ -6,12 +6,16 @@
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  background: aliceblue;
 }
 .app_bodyContainer {
   max-width: 500px;
-  border: 2px solid;
-  padding: 15px;
-  box-shadow: 0 0 4px #222;
+    border: 2px solid;
+    padding: 15px;
+    box-shadow: 0 0 4px #222;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
 }
 .converter{
   display: flex;
