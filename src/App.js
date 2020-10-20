@@ -75,8 +75,8 @@ function App() {
           onChangeCurrency={(e) => setFromCurrency(e.target.value)}
           onChangeAmount={onChangeFromAmount}
         />
-        <h3 className='text-center'></h3>
-        <img src="https://www.freeiconspng.com/uploads/arrow-up-icon-29.png" className="img-fluid" className='w-25' />
+
+        <img src="https://www.freeiconspng.com/uploads/arrow-up-icon-29.png" className="img-fluid w-25" alt="up and down arrow" />
         <Converter
           currencyOptions={currencyOptions}
           selectedCurrency={toCurrency}
